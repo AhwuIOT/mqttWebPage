@@ -1,0 +1,4 @@
+Flask==2.2.5
+Pillow==10.3.0  # 如果有用圖片處理
+gunicorn==21.2.0
+paho-mqtt==1.6.1

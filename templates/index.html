@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head><title>ESP32 圖文發送</title></head>
+<body>
+    <h2>📤 發送訊息或圖片給 ESP32</h2>
+    <form method="POST" action="/send" enctype="multipart/form-data">
+        <label>訊息：</label><br>
+        <input type="text" name="msg"><br><br>
+
+        <label>圖片（jpg/png）：</label><br>
+        <input type="file" name="image"><br><br>
+
+        <button type="submit">🚀 發送</button>
+    </form>
+</body>
+</html>
